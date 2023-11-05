@@ -1,0 +1,25 @@
+.categories{
+    border: 3px solid black;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.categories a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin: 10px auto;
+}
+hr{
+    width: 3px solid white;
+    width: 100%;
+}
+.categories a:hover{
+    background-color: rgb(50, 55, 59);
+    width: 100%;
+    text-align: center;
+}
